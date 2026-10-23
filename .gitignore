@@ -1,0 +1,19 @@
+# datasets
+*.pt
+*.csv
+data/
+carsim_processed_data_25hz/
+carsim_processed_data_test_25hz/
+processed_data_25hz/
+test_csv/
+
+# MATLAB autosave
+*.asv
+
+# result/weight .mat files — keep only best/
+*.mat
+!best/
+!best/*.mat
+
+.ipynb_checkpoints/
+__pycache__/
